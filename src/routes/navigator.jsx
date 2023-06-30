@@ -7,7 +7,7 @@ const Navigator = () => {
 
    
     
-    return ( <>
+    return ( <> 
 
     <div className="nav0-box">
             {/* <Link className='main-link' to='/'> MAIN</Link> */}
