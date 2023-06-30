@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Bigelow+Rules&display=swap');
+
+.nav0-box {
+
+   display:flex;
+    justify-content: auto;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-family: 'Barlow' , sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+   
+    border-bottom: 2px solid black;// rgb(126, 70, 118);
+
+    .n-link { display:flex;
+        margin-left: auto;
+        margin-right: auto;
+        color: black;
+        // padding-left:auto;
+        // padding-right:auto;
+    }
+   
+    .n-link:hover {
+
+        background-color: rgb(255, 255, 255);
+    //    font-size: larger;
+       color: black;
+       padding-left:10px;
+       padding-right:10px;
+
+       box-shadow:4px 3px lightblue;
+      
+
+       
+       }
+}
+
+// .accordion {
+//         display: flex;
+//         flex-direction: row;
+//       }
+      
+//       .tab {
+//         background-color: #eee;
+//         border: none;
+//         padding: 10px;
+//         width: 100px;
+//       }
+      
+//       .panel {
+//         display: none;
+//       }
+      
+//       .tab.active {
+//         background-color: #ccc;
+//       }
+      
+//       .tab.active + .panel {
+//         display: block;
+//       }
+
+

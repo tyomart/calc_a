@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Bigelow+Rules&display=swap');
+
+#main-qtmt{
+
+  margin-top:10%
+}
+
+#quote-box {
+  display:flex;
+  flex-direction: column;
+  
+  justify-content: center;
+  width:100%;
+  font-family: 'Barlow';
+  font-size: 32px;
+
+  // background-color: rgb(4, 174, 23);
+ margin: 0px auto 0px auto;
+ padding: 0px;
+ 
+  
+}
+
+#author {
+  margin: 5px auto 5px auto;
+
+  min-width: 350px;
+  max-width: 90%;
+  padding: 50px;
+  padding-bottom:10px;
+  background-color: white;
+ 
+  font-size: 32px;
+
+  align-self:center;
+}
+
+#text {
+  margin: 5px auto 35px auto;
+  min-width:40%;
+  max-width: 75%;
+  height: 270px;
+  padding: 50px;
+  font-size: 24px;
+  // background-color: beige;
+  // box-shadow: 5px 7px beige;
+  
+  align-self:center;
+
+//to transparent view
+  position: relative;
+  border: 1px solid black;
+  
+  &::before {
+    content: "";
+    mix-blend-mode: darken;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    right: -20px;
+    bottom: -20px;
+    background-color: rgb(239, 187, 116);
+    // background-color: rgba(255, 255, 255, 0.7);
+    // box-shadow: 5px 7px beige;
+  }
+
+  
+}
+
+
+
+#new-quote {
+
+  position: relative;
+  mix-blend-mode: darken;
+  background-color: white;
+  // color:rgb(0, 174, 23);
+  color:black;
+  margin: 5px auto 35px auto;
+  // width: 450px;
+  padding: 10px;
+  font-size: 32px;
+  
+
+  align-self:center;
+  
+  border:  solid 1px black;
+
+  &::before {
+    content: "";
+    mix-blend-mode: multiply;
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    right: 20px;
+    bottom: -20px;
+    background-color: rgb(233, 69, 24);
+    
+    #new-quote & {
+      height: inherit;
+      width: inherit;
+      top: inherit;
+      left: inherit;
+      right: inherit;
+      bottom: inherit;
+    }}
+}
+
+#tweet-quote {
+  position: relative;
+  mix-blend-mode: normal;
+  // background-color: white;
+  color:rgb(0, 0, 0);
+  margin: 5px auto 5px auto;
+  // width: 450px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-size: 32px;
+  
+  align-self:center;
+  
+  // border: solid 1px white;
+
+  &::before {
+    content: "";
+    mix-blend-mode: darken;
+    position: absolute;
+    top: -10px;
+    left: -75px;
+    right: -75px;
+    bottom: -10px;
+    background-color: rgb(24,142,233);
+    
+    #tweet-quote & {
+      height: inherit;
+      width: inherit;
+      top: inherit;
+      left: inherit;
+      right: inherit;
+      bottom: inherit;
+    }
+  }
+}
+#footer { 
+  display:flex;
+  justify-content:center;
+  font-family: 'Barlow';
+  margin: 5px auto 5px auto;
+  font-size:12px;
+}
