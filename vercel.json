@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/[^.]+",
-      "destination": "/"
+      "source": "/calc_a/.*",
+      "destination": "/calc_a",
     }
   ]
 }
