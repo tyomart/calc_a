@@ -8,8 +8,8 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "src": "/calc_a/.*",
+      "dest": "/calc_a"
     }
   ]
 }
