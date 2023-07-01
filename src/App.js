@@ -15,7 +15,7 @@ function App() {
 <Router>
     <Routes>
 
-    <Route path='/calc_a' element={<Navigator/>} //id='navigator-onapp'
+    <Route path='/' element={<Navigator/>} //id='navigator-onapp'
     >
           {/* <Route index element={<Main_route  />} /> */}
           
