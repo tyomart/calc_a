@@ -1,21 +1,22 @@
-{ "builds": [
-    {
-      "src": "src/**/*",
-      "use": "@vercel/static-build",
-      "config": {
-        "buildCommand": "npm run build"
-      }
+{ 
+  
+"builds": [
+  {
+    "src": "src/**/*",
+    "use": "@vercel/static-build",
+    "config": {
+      "buildCommand": "npm run build"
     }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ],
-    {
-  "rewrites":  [
-    {"source": "/(.*)", "destination": "/"}
-  ]
-}
+  }
+],
+"routes": [
+  {
+    "src": "/(.*)",
+    "dest": "/index.html"
+  }
+],
+  
+"rewrites":  [
+  {"source": "/(.*)", "destination": "/"}
+]
 }
