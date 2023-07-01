@@ -15,9 +15,9 @@ const Navigator = () => {
 
 
             {/* <div className="navi-links"> */}
-                <Link className='n-link' to='/calculator'> CALCULATOR </Link>
+                <Link className='n-link' to='calculator'> CALCULATOR </Link>
            
-                <Link className='n-link' to='/quotamat'> QUOTAMAT </Link>
+                <Link className='n-link' to='quotamat'> QUOTAMAT </Link>
                 
                 {/* <Link className='n-link' to='/markdown'> MARKDOWN </Link> */}
                 {/* <Link className='n-link' to='/test'> TEST </Link> */}

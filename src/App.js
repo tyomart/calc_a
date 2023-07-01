@@ -19,8 +19,8 @@ function App() {
     >
           {/* <Route index element={<Main_route  />} /> */}
           
-          <Route path='/calc_a/calculator' index element={<Calculator_rou />} />
-          <Route path='/calc_a/quotamat' element={<Quatomator_rou />} />
+          <Route path='calc_a/calculator' index element={<Calculator_rou />} />
+          <Route path='calc_a/quotamat' element={<Quatomator_rou />} />
 
           {/* <Route path='markdown' element={<Markdown_rou />} />
           <Route path='test' element={<Test_rou />} /> */}
