@@ -13,7 +13,7 @@ function App() {
   return (
     <>
 <Router>
-    <Routes>
+    <Routes> 
 
     <Route path='/' element={<Navigator/>} //id='navigator-onapp'
     >
