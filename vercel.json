@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/calc_a/.*",
-      "destination": "/calc_a",
+      "dest": "/calc_a",
     }
   ]
 }
