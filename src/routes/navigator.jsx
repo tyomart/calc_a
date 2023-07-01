@@ -9,7 +9,7 @@ const Navigator = () => {
     
     return ( <> 
 
-    <div className="nav0-box">
+    <div className="nav0-box"> 
             {/* <Link className='main-link' to='/'> MAIN</Link> */}
         
 
