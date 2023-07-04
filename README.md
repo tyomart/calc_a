@@ -7,4 +7,6 @@ All aps writen by scratch:
     Calculator - calculator
     Markdown edtior - MD like editor, produces html using .md standard marks 
 
-Not super styled by Material UI or even Bootstrap, focused on algorithmes 
+Not super styled by Material UI or even Bootstrap, focused on algorithmes
+
+Apps have known bugs to fix
